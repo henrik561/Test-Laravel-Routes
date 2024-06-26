@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Api\V1;
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\TaskController as BaseTaskController;
 use App\Models\Task;
 use Illuminate\Http\Request;
 
-class TaskController extends Controller
+class TaskController extends BaseTaskController
 {
     /**
      * Display a listing of the resource.
